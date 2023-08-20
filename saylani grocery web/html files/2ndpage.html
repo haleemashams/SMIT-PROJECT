@@ -22,16 +22,24 @@
  <h1>ONLINE MARKET PLACE</h1>
 </div>
 <div class="div4">
-   ,<a href="../html files/signin.html" ><button class="btnstart">Sign in</button></a>
+   <a href="./usersignup.html" ><button class="btnstart"id="signInButton">Sign up</a></button>
 </div>
 <div class="div4">
-   ,<a href="../html files/usersignup.html" ><button class="btnstart">Sign up</button></a>
+   <a href="./signin.html" ><button class="btnstart"id="signUpButton">Sign in</a></button>
 </div>
-<!-- <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
-    <script src="../js files/firebase-config.js"></script>
-    <script src="../js files/app.js"></script>
-    <script src="../js files/fileupload.js"></script>
-    <script src="../js files/project.js"></script> -->
+
+<script>
+    // Function to handle the Sign-In button click
+    function handleSignInClick() {
+        alert("Welcome to SAYLANI WELFARE! Please sign in to access the Online Market Place.");
+        // You can add more code here to redirect the user to the sign-in page if needed.
+    }
+
+    // Get the Sign-In button element by its ID
+    const signInButton = document.getElementById("signInButton");
+
+    // Add a click event listener to the Sign-In button
+    signInButton.addEventListener("click", handleSignInClick);
+</script>
 </body>
 </html>

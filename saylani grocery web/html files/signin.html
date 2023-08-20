@@ -44,23 +44,24 @@
     
     
     
-   
+ </form>   
  
 <div class="salepur">
 <div class="sale">
     <!-- <label class="radio"> <input type="radio">Sale</label> -->
-    <input  type="radio" value=""class="radio" required><label>Sale</label>
+    <input name="acc-type" type="radio" value=""class="radio" required><label>Sale</label>
 </div>
 <div class="purchase">
-    <input  type="radio" value=""class="radio" required><label>Purchase</label>
+    <input name="acc-type"  type="radio" value=""class="radio" required><label>Purchase</label>
     <!-- <label class="radio"> <input type="radio">Purchase</label> -->
 </div>
 
 </div>
 <div class="div4">
   
+   <button class="btnstart" onclick="signin()" >Sign in</button>
     
-   <input type="4" value="submit" id="submit"class="btnstart">
+   <!-- <input type="4" value="submit" id="submit"class="btnstart"> -->
     <!-- <button  >Sign up</button> -->
 </div>
 
@@ -69,19 +70,14 @@
 
   
 </div>
-</form> 
+
 
  
-<script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase.database"></script>
-    <!-- <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script> -->
-  
-     <script src="../js files/app.js"></script> 
-   <!--  <script src="../js files/fileupload.js"></script>
-    <script src="../js files/project.js"></script> 
-
-<script src="../js files/firebase-config.js"></script> -->
-
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+<script src="../firebase-config.js"></script>
+<script src="../app.js"></script>
 </div>
 </body>
 </html>
